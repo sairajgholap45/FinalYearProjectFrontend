@@ -1,0 +1,53 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradF" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e8e8e8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#d0d0d0;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadowF">
+      <feDropShadow dx="2" dy="5" stdDeviation="5" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  <rect width="400" height="400" fill="url(#bgGradF)"/>
+  <g filter="url(#shadowF)">
+    <!-- Wooden Chair -->
+    <rect x="70" y="110" width="70" height="20" fill="#8b6f47" stroke="#6b5437" stroke-width="1.5" rx="2"/>
+    <rect x="75" y="130" width="60" height="90" fill="#a0826d" stroke="#6b5437" stroke-width="1.5" rx="2"/>
+    <!-- Seat details (wood grain effect) -->
+    <line x1="80" y1="115" x2="140" y2="115" stroke="#6b5437" stroke-width="0.5" opacity="0.3"/>
+    <!-- Back rest -->
+    <rect x="75" y="80" width="60" height="50" fill="#9d7d5c" stroke="#6b5437" stroke-width="1.5" rx="2"/>
+    <!-- Chair legs -->
+    <line x1="80" y1="220" x2="75" y2="270" stroke="#8b6f47" stroke-width="5" stroke-linecap="round"/>
+    <line x1="130" y1="220" x2="135" y2="270" stroke="#8b6f47" stroke-width="5" stroke-linecap="round"/>
+    
+    <!-- Decorative Vase/Lamp -->
+    <ellipse cx="220" cy="180" rx="30" ry="50" fill="#d4a574" stroke="#8b7355" stroke-width="1.5"/>
+    <ellipse cx="220" cy="130" rx="25" ry="18" fill="#c4845c" stroke="#8b7355" stroke-width="1.5"/>
+    <!-- Lamp opening -->
+    <ellipse cx="220" cy="130" rx="18" ry="12" fill="#a0826d" opacity="0.6"/>
+    <!-- Decorative rings -->
+    <ellipse cx="220" cy="160" rx="22" ry="3" fill="none" stroke="#f4bc23" stroke-width="1" opacity="0.7"/>
+    <ellipse cx="220" cy="190" rx="20" ry="3" fill="none" stroke="#f4bc23" stroke-width="1" opacity="0.6"/>
+    
+    <!-- Decorative Cushion -->
+    <rect x="310" y="140" width="65" height="55" fill="#c41e3a" stroke="#8b0000" stroke-width="1.5" rx="3"/>
+    <!-- Gold embroidery pattern -->
+    <circle cx="323" cy="155" r="4" fill="#ffd700" opacity="0.8"/>
+    <circle cx="342" cy="150" r="3" fill="#f4bc23" opacity="0.7"/>
+    <circle cx="360" cy="160" r="4" fill="#ffd700" opacity="0.8"/>
+    <circle cx="328" cy="180" r="3" fill="#f4bc23" opacity="0.7"/>
+    <circle cx="355" cy="180" r="3" fill="#ffd700" opacity="0.7"/>
+    
+    <!-- Wooden Table Top -->
+    <rect x="160" y="290" width="120" height="15" fill="#8b6f47" stroke="#6b5437" stroke-width="1.5" rx="2"/>
+    <!-- Wood grain lines -->
+    <line x1="170" y1="290" x2="270" y2="290" stroke="#6b5437" stroke-width="0.5" opacity="0.2"/>
+    <line x1="170" y1="300" x2="270" y2="300" stroke="#6b5437" stroke-width="0.5" opacity="0.2"/>
+    <!-- Table legs -->
+    <line x1="175" y1="305" x2="165" y2="330" stroke="#8b6f47" stroke-width="6" stroke-linecap="round"/>
+    <line x1="265" y1="305" x2="275" y2="330" stroke="#8b6f47" stroke-width="6" stroke-linecap="round"/>
+  </g>
+  <rect x="0" y="340" width="400" height="60" fill="rgba(208, 208, 208, 0.95)"/>
+  <text x="200" y="378" text-anchor="middle" font-size="26" font-weight="bold" fill="#08122f" font-family="Arial">Furniture & Home Decor</text>
+</svg>

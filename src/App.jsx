@@ -1,0 +1,16 @@
+import React from 'react'
+import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom'
+import AdminPanel from './pages/AdminPanel'
+import HomePage from './pages/HomePage'
+
+export default function App() {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/admin" element={<AdminPanel />} />
+        <Route path="*" element={<Navigate to="/" replace />} />
+      </Routes>
+    </BrowserRouter>
+  )
+}

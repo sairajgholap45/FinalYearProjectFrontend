@@ -1,0 +1,49 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f0f0f0;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow">
+      <feDropShadow dx="2" dy="4" stdDeviation="4" flood-opacity="0.25"/>
+    </filter>
+    <radialGradient id="tomato" cx="35%" cy="35%">
+      <stop offset="0%" style="stop-color:#ff7675;stop-opacity:1" />
+      <stop offset="70%" style="stop-color:#d63031;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#a01e1e;stop-opacity:1" />
+    </radialGradient>
+    <radialGradient id="banana" cx="30%" cy="30%">
+      <stop offset="0%" style="stop-color:#fef5d4;stop-opacity:1" />
+      <stop offset="80%" style="stop-color:#f4d03f;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#d4a017;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#bgGrad)"/>
+  <g filter="url(#shadow)">
+    <!-- Tomatoes -->
+    <circle cx="75" cy="100" r="35" fill="url(#tomato)"/>
+    <circle cx="70" cy="95" r="12" fill="#27ae60"/>
+    <circle cx="130" cy="110" r="32" fill="url(#tomato)"/>
+    <circle cx="128" cy="105" r="10" fill="#27ae60"/>
+    <!-- Bananas -->
+    <path d="M 200 70 Q 215 50 230 65 Q 225 85 215 108" fill="url(#banana)" stroke="#d4a017" stroke-width="1"/>
+    <path d="M 235 75 Q 250 55 265 70 Q 260 90 250 115" fill="url(#banana)" stroke="#d4a017" stroke-width="1"/>
+    <!-- Carrots -->
+    <path d="M 310 120 L 335 45 L 340 60 Q 330 95 315 135" fill="#e67e22" stroke="#d35400" stroke-width="1"/>
+    <!-- Lettuce (front) -->
+    <circle cx="155" cy="280" r="48" fill="#27ae60"/>
+    <circle cx="120" cy="265" r="18" fill="#2ecc71"/>
+    <circle cx="190" cy="265" r="18" fill="#2ecc71"/>
+    <!-- Bell Pepper -->
+    <ellipse cx="285" cy="210" rx="28" ry="38" fill="#c41e3a" opacity="0.95"/>
+    <path d="M 285 172 L 290 160 L 282 170" fill="#27ae60"/>
+    <!-- Onion -->
+    <circle cx="100" cy="240" r="26" fill="#f4d03f" stroke="#d4a017" stroke-width="1"/>
+    <!-- Cabbage leaves -->
+    <circle cx="245" cy="340" r="35" fill="#27ae60" opacity="0.9"/>
+    <circle cx="220" cy="325" r="12" fill="#2ecc71" opacity="0.7"/>
+    <circle cx="270" cy="325" r="12" fill="#2ecc71" opacity="0.7"/>
+  </g>
+  <rect x="0" y="340" width="400" height="60" fill="rgba(248, 249, 250, 0.95)"/>
+  <text x="200" y="378" text-anchor="middle" font-size="28" font-weight="bold" fill="#08122f" font-family="Arial">Fruits & Vegetables</text>
+</svg>

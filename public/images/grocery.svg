@@ -1,0 +1,34 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradG" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4a5568;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2d3748;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadowG">
+      <feDropShadow dx="2" dy="6" stdDeviation="5" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+  <rect width="400" height="400" fill="url(#bgGradG)"/>
+  <!-- Paper bag -->
+  <path d="M 80 200 L 90 280 Q 90 290 100 290 L 300 290 Q 310 290 310 280 L 320 200" fill="#d4a574" stroke="#8b7355" stroke-width="2"/>
+  <g filter="url(#shadowG)">
+    <!-- Rice container -->
+    <rect x="100" y="120" width="60" height="90" fill="#c4845c" stroke="#8b6f47" stroke-width="2" rx="2"/>
+    <rect x="102" y="122" width="56" height="20" fill="#d4a574"/>
+    <text x="130" y="156" text-anchor="middle" font-size="12" font-weight="bold" fill="#fff">RICE</text>
+    <!-- Dal/Lentils can -->
+    <rect x="220" y="140" width="55" height="75" fill="#d4873a" stroke="#b8652a" stroke-width="2" rx="3"/>
+    <rect x="222" y="142" width="51" height="15" fill="#e8a257"/>
+    <text x="247" y="172" text-anchor="middle" font-size="11" font-weight="bold" fill="#fff">DAL</text>
+    <!-- Oil bottle -->
+    <ellipse cx="155" cy="240" rx="22" ry="35" fill="#f4d03f" stroke="#d4a017" stroke-width="1.5"/>
+    <ellipse cx="155" cy="202" rx="16" ry="12" fill="#d4aa0c" stroke="#b8860b" stroke-width="1"/>
+    <path d="M 150 205 L 160 205 L 160 210 L 150 210" fill="#8b6914"/>
+    <!-- Spice container -->
+    <rect x="280" y="200" width="50" height="65" fill="#9b4d27" stroke="#6b3415" stroke-width="1.5" rx="2"/>
+    <rect x="282" y="202" width="46" height="12" fill="#b8652a"/>
+    <text x="305" y="242" text-anchor="middle" font-size="10" font-weight="bold" fill="#fff">SPICE</text>
+  </g>
+  <rect x="0" y="340" width="400" height="60" fill="rgba(45, 55, 72, 0.95)"/>
+  <text x="200" y="378" text-anchor="middle" font-size="28" font-weight="bold" fill="#ffffff" font-family="Arial">Grocery Products</text>
+</svg>

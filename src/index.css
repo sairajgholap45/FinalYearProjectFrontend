@@ -1,0 +1,149 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700;800&family=Montserrat:wght@500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply font-body bg-white text-slate-900 antialiased;
+  }
+
+  ::selection {
+    @apply bg-gold-300/60 text-navy-950;
+  }
+}
+
+@layer components {
+  .container-shell {
+    @apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8;
+  }
+
+  .section-title {
+    @apply font-display text-3xl font-bold text-navy-950 sm:text-4xl;
+  }
+
+  .section-copy {
+    @apply text-base leading-7 text-slate-600 sm:text-lg;
+  }
+}
+
+/* Animations and Transitions */
+@layer utilities {
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  @keyframes slideInFromLeft {
+    from {
+      opacity: 0;
+      transform: translateX(-2rem);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes slideInFromRight {
+    from {
+      opacity: 0;
+      transform: translateX(2rem);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes slideInFromTop {
+    from {
+      opacity: 0;
+      transform: translateY(-2rem);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes slideInFromBottom {
+    from {
+      opacity: 0;
+      transform: translateY(2rem);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-12px);
+    }
+  }
+
+  @keyframes glow {
+    0%, 100% {
+      box-shadow: 0 0 20px rgba(244, 188, 35, 0.3);
+    }
+    50% {
+      box-shadow: 0 0 40px rgba(244, 188, 35, 0.6);
+    }
+  }
+
+  .animate-in {
+    animation: fadeIn 0.5s ease-out forwards;
+  }
+
+  .fade-in {
+    animation: fadeIn 0.5s ease-out;
+  }
+
+  .slide-in-from-left-4 {
+    animation: slideInFromLeft 0.6s ease-out;
+  }
+
+  .slide-in-from-right-4 {
+    animation: slideInFromRight 0.6s ease-out;
+  }
+
+  .slide-in-from-top-2 {
+    animation: slideInFromTop 0.4s ease-out;
+  }
+
+  .slide-in-from-bottom-4 {
+    animation: slideInFromBottom 0.6s ease-out;
+  }
+
+  .float {
+    animation: float 3s ease-in-out infinite;
+  }
+
+  .glow {
+    animation: glow 2s ease-in-out infinite;
+  }
+
+  /* Smooth transitions */
+  * {
+    @apply transition-colors duration-300;
+  }
+
+  /* Remove transitions for animations */
+  *, *::before, *::after {
+    @apply transform-gpu;
+  }
+}

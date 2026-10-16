@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Global export hero backdrop</title>
+  <desc id="desc">Decorative abstract background representing shipping and trade routes.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#08122f" />
+      <stop offset="100%" stop-color="#1f3f7a" />
+    </linearGradient>
+    <radialGradient id="goldGlow" cx="75%" cy="20%" r="45%">
+      <stop offset="0%" stop-color="#f4bc23" stop-opacity="0.55" />
+      <stop offset="100%" stop-color="#f4bc23" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#bg)" />
+  <rect width="1600" height="1000" fill="url(#goldGlow)" />
+  <g opacity="0.32" stroke="#dfe7ff" fill="none">
+    <path d="M90 820 C 360 640, 700 840, 1030 650 S 1530 560, 1570 360" stroke-width="4" />
+    <path d="M20 600 C 340 390, 730 610, 1060 450 S 1540 360, 1600 180" stroke-width="3" />
+    <path d="M40 930 C 390 760, 760 970, 1120 820 S 1510 760, 1600 620" stroke-width="2" />
+  </g>
+  <g fill="#f9fbff" fill-opacity="0.75">
+    <circle cx="270" cy="260" r="4" />
+    <circle cx="530" cy="490" r="5" />
+    <circle cx="760" cy="335" r="4" />
+    <circle cx="1040" cy="560" r="5" />
+    <circle cx="1290" cy="280" r="4" />
+  </g>
+</svg>
